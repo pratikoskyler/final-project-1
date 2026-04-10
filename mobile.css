@@ -1,0 +1,40 @@
+@media (max-width: 600px) {
+    #about {
+        margin: 30% auto;
+        position: static;
+        max-width: calc(100% - 100px);
+    }
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+    }
+    .post {
+        margin: 3% 4% 10% 3%;
+    }
+
+    nav ul li {
+        width: 50px;
+        margin: 1%;
+        padding: 1%;
+    }
+
+    #reviews {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #reviews .post {
+        padding: 5%;
+
+    }
+
+    #footer2 {
+        position: relative;
+        bottom: 0;
+    }
+}
+
